@@ -85,7 +85,7 @@ const JobApplyPage = () => {
                             onChange={e => setResume(e.target.value)}
                             className="w-full p-2 border rounded mb-4"
                         />
-                        <label className="block mb-2">Job Category</label>
+                        <label className="block mb-2">Job Cover Letter</label>
                         <input type="text" placeholder="Enter Job Cover Letter" 
                             onChange={e => setCoverLetter(e.target.value)}
                             className="w-full p-2 border rounded mb-4"
