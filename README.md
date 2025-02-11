@@ -1,9 +1,11 @@
 # Steps to follow for Backend
 1. Clone the repository
 2. Run npm install - to install all dependencies
-3. Change the Database Config with your's data -> config/database.js or
-4. Create .env file and create a varable 'DATABASE_URL' assign with postgress connection string
-5. Create all the necessary Database/Tables - jobtb, applicationtb
+3. Run npm run dev
+### If you want to change the configs with your's data
+1. Change the Database Config with your's data -> config/database.js or
+2. Create .env file and create a varable 'DATABASE_URL' assign with postgress connection string
+3. Create all the necessary Database/Tables - jobtb, applicationtb
 
 ## N.B - here query sample
 CREATE TABLE IF NOT EXISTS jobtb
